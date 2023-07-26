@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/SPCK.css/assets_SPCK/css-SPCK/register.css">
+</head>
+
+<body>
+    <form>
+        <div class="imgbox">
+            Đăng kí
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="text-box">
+                    <label for="uname"><b>Tên đăng kí</b></label>
+                </div>
+                <input type="text" placeholder="Nhập tên ở đây" name="uname" required>
+                <div class="text-box">
+                    <label for="psw"><b>Mật khẩu</b></label>
+                </div>
+
+                <input type="password" placeholder="Nhập mật khẩu ở đây" name="psw" required>
+                <div class="text-box">
+                    <label for="mail"><b>Email</b></label>
+                </div>
+                <input type="email" placeholder="Nhập email ở đây" name="mail" required>
+                <div class="text-box">
+                    <label for="phnumber"><b>Số điện thoại</b></label>
+                </div>
+                <input id="nb" type="string" placeholder="Nhập số điện thoại ở đây" name="phnumber" required>
+                <span id="demo"></span>
+                <button id="rgbtn" type="submit" onclick="myFunction()"><a href="/SPCK/plantx.html">Đăng kí</a></button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Hãy nhớ đến tôi
+                </label>
+                <button><a href="/SPCK/login.html">Đã có tài khoản?</a></button>
+            </div>
+        </div>
+        <div class="button" style="background-color: aliceblue; border-radius: 15px;">
+            <button type="button" class="cancelbtn">Hủy</button>
+            <!-- <span class="psw">Forgot <a href="#">Password?</a></span> -->
+        </div>
+    </form>
+</body>
+<!-- <script>
+    function myFunction() {
+        let x = document.getElementById("nb").value;
+        let text;
+        if (!isNaN(x) && x.length == 10) {
+            text = " valid phone number";
+        } else {
+            text = "invalid phone number";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script> -->
+
+</html>

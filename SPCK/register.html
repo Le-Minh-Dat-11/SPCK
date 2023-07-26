@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/SPCK.css/assets_SPCK/css-SPCK/register.css">
+</head>
+
+<body>
+    <form>
+        <div class="imgbox">
+            Register
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="text-box">
+                    <label for="uname"><b>Username</b></label>
+                </div>
+                <input type="text" placeholder="Type your username here" name="uname" required>
+                <div class="text-box">
+                    <label for="psw"><b>Password</b></label>
+                </div>
+
+                <input type="password" placeholder="Type your password here" name="psw" required>
+                <div class="text-box">
+                    <label for="mail"><b>Email</b></label>
+                </div>
+                <input type="email" placeholder="Type your email here" name="mail" required>
+                <div class="text-box">
+                    <label for="phnumber"><b>PhoneNumber</b></label>
+                </div>
+                <input id="nb" type="string" placeholder="Type your phone number here" name="phnumber" required>
+                <span id="demo"></span>
+                <button id="rgbtn" type="submit" onclick="myFunction()"><a
+                        href="/SPCK/plantx.html">Register</a></button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember me
+                </label>
+                <button><a href="/SPCK/login.html">already have an acconut?</a></button>
+            </div>
+        </div>
+        <div class="button" style="background-color: aliceblue; border-radius: 15px;">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <!-- <span class="psw">Forgot <a href="#">Password?</a></span> -->
+        </div>
+    </form>
+</body>
+<!-- <script>
+    function myFunction() {
+        let x = document.getElementById("nb").value;
+        let text;
+        if (!isNaN(x) && x.length == 10) {
+            text = " valid phone number";
+        } else {
+            text = "invalid phone number";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script> -->
+
+</html>

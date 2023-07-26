@@ -1,0 +1,35 @@
+.navigation-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.navigation-flex-items {
+    box-shadow: rgba(0, 0, 0, 0.2);
+    width: 360px;
+    height: 500px;
+    text-align: center;
+    margin: 50px 25px;
+    /* justify-content: center; */
+
+    /* border: solid; */
+    /*color: green;
+    background-color: aliceblue; */
+}
+
+.img-btn {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.img-btn a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.d {
+    width: 360px;
+    height: 400px;
+}
